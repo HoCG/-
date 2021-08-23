@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1 " charset="utf-8" /> <!--<p>메타 하나 더써도 무관</p>-->
+    <title>Welcome To Project</title>
+    <link rel="stylesheet" href="radio.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#div" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top}, 400);
+      }
+    </script>
+    <style>
+    .pull-left { float: left;}
+
+      <!--<p>앨범 소개부분</p>-->
+      .li-fontsize {
+        list-style: none;
+        font-size:200 %;
+      }
+      .ol-fontsize {
+        list-style: none;
+        font-size: 200%;
+      }
+
+
+      *{
+        color:black;
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        margin: 0 auto;
+        width: 960px;
+        background: #E6E6E6;
+      }
+      #page-wrapper {
+        background: white;
+        margin: 40px 0; padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+      }
+      .skin{
+        text-align:center;
+      }
+      .skinForBox
+
+
+
+
+      <!--<p>반응형사진</p>-->
+      a.rollover img { border-width:0px; display:inline; }
+      a.rollover img.over { display:none; }
+      a.rollover:hover { border:0px }
+      a.rollover:hover img { display:none; }
+      a.rollover:hover img.over { display:inline; }
+      span{
+        text-decoration: underline;
+        font-size: 17px;
+        color: brown;
+      }
+    </style>
+    <style media="screen">
+
+    @media screen and (max-width: 767px) {
+       body {
+        width:auto;
+      }
+      img{
+         max-width: 100%;
+      }
+    }
+    @media screen and (min-width: 768px) and (max-width: 959px){
+      body {
+      width:auto;
+      }
+      img{
+         max-width: 100%;
+      }
+    }
+    @media screen and (min-width: 960px){
+      body {
+        width:auto;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript" src="JavaPoint.js"></script>
+    <div id="page-wrapper">
+    <header>
+      <h1><img src="Radio/라헤2.jpg"alt="" width="50" height="50">RADIOHEAD<img src="Radio/라헤2.jpg" alt="" width="50" height="50"></h1>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="Radio/라헤Down.jpg" style="width:100%">
+          <div class="text" style="color:orange">Welcome</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="Radio/Headhead.jpg" style="width:100%">
+          <div class="text" style="color:orange">To</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="Radio/Headhead2.jpg" style="width:100%">
+          <div class="text" style="color:orange">RadioWorld</div>
+        </div>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <script type="text/javascript">
+        showSlides();
+      </script>
+    </header>
+    <div class="nav_wrapper">
+      <nav class="menu">
+        <ul>
+          <li ><a href="#Link" title="Link">Home</a>
+            <ul >
+              <li ><a href="#Link" title="Link">라디오헤드란? » </a>
+                <ul >
+                  <li ><a href="#Link" title="Link">맴버소개</a></li>
+                  <li ><a href="#Link" title="Link">앨범소개</a></li>
+                </ul>
+              </li>
+              <li ><a href="#Link" title="Link">공식사이트</a></li>
+              <li ><a href="#Link" title="Link">맴버별 SNS » </a>
+                <ul >
+                  <li ><a href="#Link" title="Link">Thom Yorke</a></li>
+                  <li ><a href="#link" title="Link">Colin Greenwood</a></li>
+                  <li ><a href="#Link" title="Link">Jonny Greenwood</a></li>
+                  <li ><a href="#Link" title="Link">Ed O'Brien</a></li>
+                  <li ><a href="#Link" title="Link">Phil Selway</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li ><a href="#Link" title="Link">Category</a>
+            <ul >
+              <li ><a href="#Link" title="Link ">Link</a></li>
+              <li ><a href="#Link" title="Link">Link</a></li>
+            </ul>
+          </li>
+          <li ><a href="#Link" title="Link">Portfolio</a>
+            <ul >
+              <li ><a href="#Link" title="Link">Link</a></li>
+              <li ><a href="#Link" title="Link">Link</a></li>
+              <li ><a href="#Link" title="Link">Link</a></li>
+            </ul>
+          </li>
+          <li ><a href="#Link" title="Link">Work</a>
+            <ul >
+              <li ><a href="#Link" title="Link">Link</a></li>
+              <li ><a href="#Link" title="Link">Link</a></li>
+              <li ><a href="#Link" title="Link">Link</a></li>
+              <li ><a href="#Link" title=" Link"> Link</a></li>
+            </ul>
+          </li>
+          <li ><a href="#Link" title="Link">Services</a>
+            <ul >
+              <li ><a href="#Link" title="Link">Link </a></li>
+              <li ><a href="#Link" title="Link">Link</a></li>
+              <li ><a href="#Link" title="Link">Link</a></li>
+            </ul>
+          </li>
+          <li ><a href="#Link" title="Link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <br>
+
+
+<!--<p>라디오헤드 앨범 소개부분</p>-->
+    <table style='background-color:#ffffff; width:100%; border:2px solid #b0c4de; overflow: hidden;' data-dark-style='background-color:#191919;'>
+      <tbody>
+        <tr>
+          <td style='text-align:center;'>
+              <div style="margin:-5px -10px; padding:7px 10px; background-image:linear-gradient(to right,  #B0E0E6, #B0C4DE, #E6E6FA); overflow: hidden;">
+              <img width="100" height="100" src='Radio/Music.png'></div></td></tr>
+  <tr>
+    <td rowspan='1' style='background-color:#fff; height:32px; text-align:center; vertical-align:top; overflow: hidden;' data-dark-style='background-color:#191919;'>
+      <div style="margin:0 -10px">
+        <dt> &#91;  Discography  &#93;</dt>
+        <dd>
+        <div style="margin-bottom:-15px">
+  <table style='background-color:#ffffff; width:100%;' data-dark-style='background-color:#191919;'>
+    <tbody>
+    <tr>
+      <td colspan='5' style='text-align:center;'>
+         <strong><span style='width:100px;'><img width= "96"  height="14" src='Radio/RadioheadEmote.png'>
+          <span style='color:black' data-dark-style='color:#e5e5e5;'>Discography</span>
+          </span>
+          <br>
+          <br>
+        </strong>
+      </td>
+    </tr>
+    <hr>
+    <tr>
+      <td style='text-align:center;'><div style="margin:-5px -10px"><a href="#" style='width:100%;' onclick="fnMove('1')"><img width='75%' src='Radio/PabloHoney.jpg'></a></div></td>
+      <td style='text-align:center;'><div style="margin:-5px -10px"><a href="#" style='width:100%;' onclick="fnMove('2')"><img width='75%' src='Radio/OKComputer (2).jpg'></a></div></td>
+      <td style='text-align:center;'><div style="margin:-5px -10px"><a href="#" style='width:100%;' onclick="fnMove('3')"><img width='75%' src='Radio/OKComputer (1).jpg'></a></div></td>
+      <td style='text-align:center;'><div style="margin:-5px -10px"><a href="#" style='width:100%;' onclick="fnMove('4')"><img width='75%' src='Radio/KidA.jpg' ></a></div></td>
+      <td style='text-align:center;'><div style="margin:-5px -10px"><a href="#" style='width:100%;' onclick="fnMove('5')"><img width='75%' src='Radio/Amnesiac.jpg' ></a></div></td>
+    </tr>
+    <tr>
+    <td style='text-align:center;'><strong><a href="#" style="color:#5112AB" onclick="fnMove('1')" >Pablo Honey</a></div></td>
+    <td style='text-align:center;'><strong><a href="#" style="color:#E5D85C" onclick="fnMove('2')"> The Bends</a></div></td>
+    <td style='text-align:center;'><strong><a href="#" style="color:#A0BAED" onclick="fnMove('3')"> OK Computer</a></div></td>
+    <td style='text-align:center;'><strong><a href="#" style="text-shadow:0 0 10px #000000;color:#FFFFFF" onclick="fnMove('4')"> Kid A</a></div></td>
+    <td style='text-align:center;'><strong><a href="#" style="color:#ED0000" onclick="fnMove('5')"> Amnesiac</a></div></td>
+  </tr>
+    <tr>
+      <td style='width:20%; text-align:center;'><strong><span style='color:black' data-dark-style='color:#e5e5e5;'>1993</span></strong></td>
+      <td style='width:20%; text-align:center;'><strong><span style='color:black' data-dark-style='color:#e5e5e5;'>1995</span></strong></td>
+      <td style='width:20%; text-align:center;'><strong><span style='color:black' data-dark-style='color:#e5e5e5;'>1997</span></strong></td>
+      <td style='width:20%; text-align:center;'><strong><span style='color:black' data-dark-style='color:#e5e5e5;'>2000</span></strong></td>
+      <td style='width:20%; text-align:center;'><strong><span style='color:black' data-dark-style='color:#e5e5e5;'>2001</span></strong></td>
+    </tr>
+    <tr>
+      <td style='text-align:center;'><div style="margin:-5px -10px"><a href="#" style='width: 100%;' onclick="fnMove('6')"><img width='75%' src='Radio/Hailtothethief.jpg'></a></div></td>
+      <td style='text-align:center;'><div style="margin:-5px -10px"><a href="#" style='width: 100%;' onclick="fnMove('7')"><img width='75%' src='Radio/Inrainbows.jpg'></a></div></td>
+      <td style='text-align:center;'><div style="margin:-5px -10px"><a href="#" style='width: 100%;' onclick="fnMove('8')"><img width='75%' src='Radio/Amoonshapedpool (2).jpg'></a></div></td>
+      <td style='text-align:center;'><div style="margin:-5px -10px"><a href="#" style='width: 100%;' onclick="fnMove('9')"><img width='75%' src='Radio/Amoonshapedpool (1).jpg'></a></div></td>
+    </tr>
+      <tr>
+        <td style='text-align:center;' onclick="fnMove('6')"><a href="#"><span style="color:#176846">Hail</span> <span style="color:#C41135">to</span> <span style="color:#384B95">the</span> <span style="color:#E06E32">thief</span></a></td>
+        <td style='text-align:center;' onclick="fnMove('7')"><a href="#"><span style="color:#F6EC5A">In</span> <span style="color:#447EB8">Ra</span><span style="color:#F26635">in</span><span style="color:#3F9C4B">b</span><span style="color:#EAB334">o</span><span style="color:#EB2730">w</span><span style="color:#A2DAEA">s</span></a></td>
+        <td style='text-align:center;' onclick="fnMove('8')"><a href="#"><span style="color:#D6C94D">The King</span> <span style="color:#10620A">of Limbs</span></a></td>
+        <td style='text-align:center;' onclick="fnMove('9')"><a href="#" style="color:#5D5D5D"> A Moon Shaped Pool</a></td></tr>
+        <tr>
+          <td style='width:20%; text-align:center;'><strong><span style='color:black' data-dark-style='color:#e5e5e5;'>2003</span></strong></td>
+          <td style='width:20%; text-align:center;'><strong><span style='color:black' data-dark-style='color:#e5e5e5;'>2007</span></strong></td>
+          <td style='width:20%; text-align:center;'><strong><span style='color:black' data-dark-style='color:#e5e5e5;'>2011</span></strong></td>
+          <td style='width:20%; text-align:center;'><strong><span style='color:black' data-dark-style='color:#e5e5e5;'>2016</span></strong></td>
+        </tr>
+        </tbody></table><br></dd></dl></td></tr></tbody></table>
+
+    <section>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <h2>라디오헤드 정규앨범</h2>
+      <br>
+      <ol>
+        <a class="ol-fontsize"><li id="div1"><h3 style="color:#5112AB">Pablo Honey<h3></li><img src="Radio/다운로드.jpg" alt="" width="100" height="100"></a>
+        <select name="수록곡">
+          <option>수록곡</option>
+        </select>
+        <br>
+        <video src="Radio/creep.mp4" class="pull-left" width="200" height="200" controls="controls">
+        </video>
+        <br>
+        <br>
+        <p>라디오헤드의 <span style="color:#5112AB">정규 데뷔 앨범.</span> 1993년 2월 22일 발표.
+        AllMusic에는 얼터너티브 록, 브릿팝, 인디록 으로 분류되어있으며,
+        라디오헤드 앨범 중 유일하게 그런지 성향을 띄고 있다.
+        라디오헤드 중 가장 유명한 곡 중 하나인 Creep이 수록된 앨범이다.
+        그래서 그런지 다른 곡들은 대부분 관심이 떨어지는 편. 때문에 톰 요크가 마음고생을 했다고 한다.
+        다들 공연에서 Creep 말고 다른 곡은 듣지 않으려고 해서...
+        몇년후 The Bends로 질적으로 성숙한 앨범을 만들고 Creep = 라디오헤드라는 선입견을 떨쳐낸다. 1집이 질적 균형이 좋지 않은건 라디오헤드가 음반산업에 대해 잘 몰랐으며 프로듀서의 압력 때문이라는 이야기가 있다.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="ol-fontsize"><li id="div2"><h3 style="color:#E5D85C">The Bends</h3></li><img src="Radio/다운로드2.jpg" alt="" width="100" height="100"></a>
+        <select  name="수록곡">
+          <option>수록곡</option>
+        </select>
+        <br>
+        <video src="Radio/high&dry.mp4" class="pull-left" width="200" height="200" controls="controls">
+        </video>
+        <br>
+        <br>
+        <p>라디오헤드의 <span style="color:#E5D85C">두 번째 정규 앨범.</span> AllMusic에는 얼터너티브 록/팝, 브릿팝, 얼터너티브/인디 록 으로 분류되어있다.
+        1집의 그런지스러운 스타일과는 많이 다르다. Creep 한 곡만이 큰 성공을 거뒀던 기형적 구조의 1집과는 다르게 앨범에 수록된 모든 곡이 전 세계적인 히트를 기록했다. 싱글로는 "My Iron Lung","High and Dry","Fake Plastic Trees","Just","Street Spirit (Fade Out)" 5장을 팔았다. 1집이 라디오헤드의 이름을 사람들에게 알렸다면, 2집은 소포모어 징크스를 말끔히 떨쳐내고 라디오헤드의 뛰어남을 증명한 앨범이라고 볼 수 있다.
+        OK Computer가 평론계에 호감을 샀다면 The Bends는 라디오헤드의 앨범 중 가장 영향력 있는 앨범일 것이다.
+        파급력에 대해 덧붙이자면 웨이브의 최민우 평론가는 "이 음반을 메이저 코드로 바꾼 뒤 창밖의 빗소리를 노래하면 트래비스(Travis)의 The Man Who가 되고 기타에 대한 세심한 고려를 뺀 자리에 키보드의 아르페지오를 바르면 뮤즈의 Origin of Symmetry 가 된다. 어쿠스틱 연주로 바꾸면 콜드플레이의 Parachutes 가 되며 뭉갠 전자음을 두텁게 바르면 엘보우의 Asleep In The Back 이, '이브닝 버전'으로 투명하게 리믹스하면 스타세일러(Starsailor)의 Love Is Here가 된다." 라고 평하기도하였다. </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="ol-fontsize"><li id="div3"><h3 style="color:#A0BAED">OK Computer</h3></li><img src="Radio/다운로드3.jpg" alt="" width="100" height="100"></a>
+        <select name="수록곡">
+          <option>수록곡</option>
+        </select>
+        <br>
+        <video src="Radio/karmapolice.mp4" class="pull-left" width="200" height="200" controls="controls">
+        </video>
+        <br>
+        <br>
+        <p>라디오헤드 <span style="color:#A0BAED">3번째 정규 앨범.</span> 일본에서 1997년 5월 21일 발매, 영국에서 Parlophone을 통해 6월 16일 발매, 미국에서는 Capitol Records사를 통해 7월 1일 발매했다. 라디오헤드 최고의 명반으로 손꼽힌다. 얼터너티브 락이 중심이 되고, 일렉트로니카가 이를 뒷받침 해주는 형태로 처음으로 일렉트로니카를 받아들였다. 이후 발매하는 Kid A 앨범으로 밴드의 음악성에 큰 변화를 주는 계기가 되기도 하는 앨범. 90년대 록 음악의 주요한 조류들의 특징들을 거의 모두 포함하면서 라디오헤드 특유의 색채까지 각인시킨 앨범으로, 그러한 점에서 거의 모든 매체에서 90년대를 대표하는 록 음반으로 항상 최우선으로 뽑히는 앨범이다. 음악계에 다방면으로 영향력을 끼쳤으며, 2번째 정규 앨범인 The Bends와 함께 무수히 많은 유사 라디오헤드 밴드를 양산하는데 일조했다.
+        핑크 플로이드의 The Dark Side of the Moon, 비틀즈의 Sgt. Pepper's Lonely Hearts Club Band와 더불어 최고의 컨셉 앨범으로 평가받는다. </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a><li class="ol-fontsize" id="div4"><h3 style="text-shadow:0 0 10px #000000;color:#FFFFFF">Kid A</h3></li><img src="Radio/다운로드4.jpg" alt="" width="100" height="100"></a>
+        <select name="수록곡">
+          <option>수록곡</option>
+        </select><br>
+        <video src="Radio/kidA.mp4" class="pull-left" width="200" height="200" controls="controls">
+        </video>
+        <br>
+        <br>
+        <p>
+        라디오헤드의 정규 <span style="text-shadow:0 0 10px #000000;color:#FFFFFF">4번째 앨범.</span> EMI에서 2000년 10월 2일에 발표했다. 싱글컷도 하지 않고, 뮤직비디오도 제작하지 않는 등 흥보를 거의 하지 않았다. 발매 직후에는 The Guardian으로부터 2/5점, Melody Maker로부터 1.5/5점을 받는 등 충격적인 음악적 변화에 혹평을 받기도 했다. 하지만 전세계적으로 500만 장이 넘게 팔리고, 영국과 미국에서 동시에 앨범 순위 1위를 하는 등 (미국 빌보드 차트 1등한 IDM 수록 앨범...) 비교적 큰 성공을 거둔다. OK Computer에서 시도하고자 했던 록 소리와 일렉트로니카의 조합을 보다 본격적으로 추구한 앨범으로 다양한 장르를 라디오헤드스럽게 조합하는 작법 자체는 전작과 같으나, 그 조합한 장르들이 전작과 달리 앰비언트, IDM, 크라우트록, 현대음악 등으로 생소하다는 점에서 당시 4집 앨범 듣고 충격받은 라디오헤드 팬들이 참 많았다. 덕분에 Pablo Honey나 The Bends 시절 팬들 사이에서는 호불호가 갈리는 앨범이다. 하지만 시간이 지나며 점점 좋은 평가가 대세를 이루었으며, 결과적으로는 OK Computer와 쌍벽을 이루는 당대 최고의 앨범이라는 평가를 일반적으로 받게 되었다. 물론 OK Computer는 후배 아티스트들에게 막대한 영향을 끼치고 새로운 길을 제시했다는 점에서 더 높 게 평가받는다. 그러나 라디오헤드의 '끝'을 묻는다면 단연 Kid A라고 할 수 있으며, 상대적으로 낮은 접근성과 겹쳐서 라디오헤드의 강성 팬일수록 OK Computer에 비해 Kid A를 높게 평가하는 경향이 있다.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="ol-fontsize"><li id="div5"><h3 style="color:#ED0000">Amnesiac</h3></li><img src="Radio/다운로드5.jpg" alt="" width="100" height="100"></a>
+        <select name="수록곡">
+          <option>수록곡</option>
+        </select><br>
+        <video src="Radio/KnivesOut.mp4" class="pull-left" width="200" height="200" controls="controls">
+        </video>
+        <br>
+        <br>
+        <p>영국 밴드 라디오헤드의 <span style="color:#ED0000">다섯 번째 앨범.</span> EMI에서 2001년 6월 4일에 발표. (영국 기준). AllMusic 기준으로는 얼터너티브 록, 얼터너티브/인디록, 인디 일렉트로닉, 엑스페리먼트 록으로 스타일을 정리했다. 위키에서는 아트록, 일렉트로니카를 넣기도한다. KID A 처럼 클래식, 엠비언트, 일렉트로닉, 재즈가 조화를 이루고 있는 앨범이다.
+        라디오헤드의 전 앨범 Kid A의 연장선에 있는 앨범으로, 대부분 Kid A와 같은 몽환적인 소리를 띄고 있다.
+        Kid A와 다르게 적극적인 마케팅을 했으며, Pyramid Song과 Knives Out의 뮤직비디오를 제작했다.
+        Kid A보다는 기타, 드럼 등의 락적인 요소가 더 첨가되었다.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="ol-fontsize"><li id="div6"><span style = " font-size:1.3em; color:#176846">Hail</span> <span style="font-size:1.3em; color:#C41135">to</span> <span style="font-size:1.3em; color:#384B95">the</span> <span style="font-size:1.3em; color:#E06E32">thief</span></li><img src="Radio/다운로드6.jpg" alt="" width="100" height="100"></a>
+        <select name="수록곡">
+          <option>수록곡</option>
+        </select><br>
+        <video src="Radio/therethere.mp4" class="pull-left" width="200" height="200" controls="controls">
+        </video>
+        <br>
+        <br>
+        <p>영국 밴드 라디오헤드의 <span style="color:#176846">6</span><span style="color:#C41135">번</span><span style="color:#384B95">째</span> <span style="color:#E06E32">정규</span><span>앨범.</span> EMI에서 2003년 6월 9일에 발표했다. 이 앨범이 라디오헤드가 EMI에서 발표한 마지막 앨범이 되었다.
+        AllMusic 기준으로는 얼터너티브 록, 얼터너티브/인디록, 인디 일렉트로닉, 엑스페리먼트 록으로 정리되어 있다. 영어판 위키에선 출처까지 넣어서 아트록이 추가 되어있는 경우도 있다.
+        Kid A, Amnesiac의 실험에서 돌아와 기타와 드럼 등을 많이 활용하면서 밴드적인 소리로 돌아갔다고 평가받는다. 그래서 그 전작들과는 달리 훨씬 더 듣기 편하다. 애초에 이 음반이 Kid A와 Amnesiac의 스타일을 정립한 음반이라 평가하는 이가 많다. 실제로, 라디오헤드의 음악을 듣는 매니아들 중에서 여기까지만 그들의 음악을 들은 이가 많다. 실제로, 이후 음반들은 대중적으로 소화하기 꽤나 버거워진다.
+        앨범의 이름은 Hail To The Thief는 이 대통령에 대한 반대 신조이다. 미국에서 대통령이 공적행사에 참석했을 때 일종의 주제가(...)로서 연주하는 Hail to the Chief라는 곡의 패러디. 참고로 이 곡 자체도 여기저기서 개그용으로 또는 패러디로 쓰이곤 하니 어지간한 사람이면 들으면 아 이 곡이라고 무릎을 치게 될 것이다(..) 링크 처음에는 톰 요크의 주장으로 곡 중 하나의 이름인 The Gloaming이 앨범 타이틀이 될 뻔했으나, 다른 Hail To The Thief가 되었다.
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="ol-fontsize"><li id="div7"><span style="font-size:1.3em; color:#F6EC5A">In</span> <span style="font-size:1.3em; color:#447EB8">Ra</span><span style="font-size:1.3em; color:#F26635">in</span><span style="font-size:1.3em; color:#3F9C4B">b</span><span style="font-size:1.3em; color:#EAB334">o</span><span style="font-size:1.3em; color:#EB2730">w</span><span style="font-size:1.3em; color:#A2DAEA">s</span></li><img src="Radio/다운로드7.jpg" alt="" width="100" height="100"></a>
+        <select name="수록곡">
+          <option>수록곡</option>
+        </select><br>
+        <video src="Radio/weirdFishes.mp4" class="pull-left" width="200" height="200" controls="controls">
+        </video>
+        <br>
+        <br>
+        <p>라디오헤드의 <span style="color:#F6EC5A">7</span><span style="color:#447EB8">번</span><span style="color:#F26635">째</span> <span style="color:#3F9C4B">정</span><span style="color:#EAB334">규</span><span style="color:#EB2730">앨</span><span style="color:#A2DAEA">범</span> 2007년 10월 10일에 라디오헤드의 레이블에서 MP3의 형태로 발표되었다.
+        라디오헤드 특유의 우주적이고 미래적인 소리와 높은 완성도로 평론가들의 호평을 받았다.
+        AllMusic에서는 엑스페리먼트 록, 인디록, 얼터너티브 록으로 스타일이 분류된다. 음악적으로는 KID A와 OK Computer 사이에 있다고 볼 수 있겠으나 Hail To The Thief의 발전형으로도 볼 수 있다. 그래서 지난 음악적인 역량을 모아 한곳에 마침표를 찍듯히 깔끔하게 정돈되 있는 앨범이라 라디오헤드를 처음 접하는 이들에게 균형있는 앨범이 될것이다. 하나하나 깨알같이 휼륭하지만 weiv에서 언급했듯이 가장 완벽한 곡일지도 모르는 Reckoner는 꼭들어보길 바란다.
+        전세계적으로 300만장이 팔렸다.
+        북미에선 2008년 1월 1일날 TBD 레코드에서 판매하였다.
+        녹음은 제작사 나이절 고드리치와 함께 이른 2005년부터 시작하여 2년넘게 작업을 하였다. 2006년 중반부터는 3개월 동안 유럽과 북미에 공연을 하는 사이에 녹음을 하였으며 톰 요크는 이앨범은 다른 앨범보다 좀더 개인적인 곡이며 유혹하는 노래들이라고 묘사하였다. 라디오헤드는 방대한 종류의 음악적인 형식과 단지 전자 음악과 클래식 음악뿐만 아니라, 첼레스타(Celesta), 피아노, 옹드 마르트노를 사용하여 악기들과 조화를 주웠다.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="ol-fontsize"><li id="div8"><span style="font-size:1.3em; color:#D6C94D">The King</span> <span style="font-size:1.3em; color:#10620A">of Limbs</span></li><img src="Radio/다운로드8.jpg" alt="" width="100" height="100"></a>
+        <select name="수록곡">
+          <option>수록곡</option>
+        </select><br>
+        <video src="Radio/GiveUpTheGhost.mp4" class="pull-left" width="200" height="200" controls="controls">
+        </video>
+        <br>
+        <br>
+        <p>영국의 록 밴드 라디오헤드의 <span>8번째 정규 음반.</span>
+        AllMusic 기준에선 얼터너티브 록, 인디록, 엑스페리먼트 록이다. 위키에서는 논란이 많은지 장르분류가 없기도 하고 덥스텝, 일렉트로닉 뮤직으로 계속 바뀌기도 한다.
+        샘플링과 루프 앰비언트가 두드러진다. 샘플에 새소리와 바람 소리를 사용했다고한다. 필 셸웨이의 드럼과 콜린 그린우드의 리듬부분이 더 강조되었다. 그래서 드럼과 배경의 모래알같은 자글자글한 소리를 듣기위해 헤드폰을 권장하는 개인 리뷰도 있다. Los Angeles에서 녹음했는데 드루 배리모어 집에서 녹음했다는이야기가 있다. The King of Limbs라는 앨범명은 Wiltshire에 Savernake 숲의 천 년이 지난 참나무의 외관에 영향받았다. Savernake 숲은 In Rainbows곡을 녹음하던 으스스한 Tottenham Court 저택에서 3마일만 조금만 더 가면 나오는 숲이다. </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="ol-fontsize"><li id="div9" style="color:#5D5D5D">A Moon Shaped Pool</li><img src="Radio/다운로드9.jpg" alt="" width="100" height="100"></a>
+        <select name="수록곡">
+          <option>수록곡</option>
+        </select><br>
+        <video src="Radio/DayDreaming.mp4" class="pull-left" width="200" height="200" controls="controls">
+        </video>
+        <br>
+        <br>
+        <p>영국 밴드 라디오헤드의 <span>아홉 번째 정규 앨범.</span> 한국 시각 2016년 5월 9일 새벽 3시에 디지털 발매되었다. CD와 LP는 6월 17일 릴리즈되었다. 앨범 발매는 XL Recordings에서 담당했다.
+        이번 앨범은 바로 지난 앨범과는 달리 공식적으로 싱글을 발매하고 뮤직 비디오를 만드는 등 적극적으로 홍보 활동을 했으며, 국내에서 음원 배급 문제로 골머리를 앓았던 7, 8집과는 달리 음원 유통도 원활한 편이었다. 앨범 커버는 나이젤 고드리치와 마찬가지로 라디오헤드와 항상 함께 해 온 스탠리 돈우드가 제작했다. 프로듀싱은 라디오헤드의 영원한 동반자라고 할 수 있는 Nigel Godrich와 라디오헤드 본인들이 직접 맡았다. 앨범이 발매되자마자 BBC Radio 6에서 톰 로빈슨에 의해 전곡이 스트리밍 방송되었다.
+        앨범마다 저마다의 색채를 띠는 라디오헤드답게 역시나 전작과는 다른 지향점을 보였다. 일렉트로닉 대신 챔버팝적 요소가 대폭 증가되었는데 덕분에 현대음악의 영향을 받은 조니 그린우드의 실험적인 편곡이 꽤나 돋보였다. 전체적으로 현악기가 두드러지며 9곡을 오케스트라와 합창단을 기용했다고 한다. 한편으로 전작에 비해 대중성 있는 기타 편곡이 두드러지는데 이는 에드 오브라이언의 공이 컸다</p>
+        <br>
+        <br>
+        <br>
+      </ol>
+      <div class="skin"><img src="Radio/라됴2.png"  width="750" height="267" ></div>
+      <hr><br>
+    </section>
+    <footer>
+      <h4>Made By Hwang Ho Se</h4>
+      <div class="skin"><a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA"><img src="Radio/유튜브.png" alt="" width="40px" height="40px" ></a><a href="https://ko-kr.facebook.com/radiohead/"><img src="Radio/페이스북.jpg" alt="" width="40px" height="40px" ></a>
+        <a href="https://www.instagram.com/radiohead/?hl=ko"><img src="Radio/인스타그램.png" alt="" width="40px" height="40px" ></a></div>
+    </footer>
+  </div>
+    </body>
+</html>
